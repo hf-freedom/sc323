@@ -1,0 +1,17 @@
+server:
+  port: 8004
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: preorder-system
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+
+preorder:
+  scheduled:
+    fixed-delay: 5000

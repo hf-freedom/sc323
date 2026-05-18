@@ -1,0 +1,28 @@
+{
+  "name": "preorder-frontend",
+  "version": "1.0.0",
+  "description": "电商预售尾款系统前端",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 3004",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "axios": "^1.6.2",
+    "element-ui": "^2.15.14",
+    "core-js": "^3.33.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.7.14",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
